@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: ai-lead-qualifier
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: LLM_MODE
+        value: live
+      - key: CLASSIFY_MODEL
+        value: claude-haiku-5-5
+      - key: DRAFT_MODEL
+        value: claude-sonnet-5-5
+      - key: DEMO_MODE
+        value: "1"
+      - key: DAILY_CALL_LIMIT
+        value: "300"

@@ -34,3 +34,10 @@ def test_changed_prompt_is_a_cache_miss():
     a = cache_key({"model": "m", "system": "v1", "user": "u"})
     b = cache_key({"model": "m", "system": "v2", "user": "u"})
     assert a != b
+
+
+def test_daily_limit_blocks_live_calls(tmp_path, monkeypatch):
+    client = ClaudeClient(ResponseCache(tmp_path / "c.json"), live=True, has_key=True, daily_limit=1)
+    client._calls_today = 1
+    with pytest.raises(LLMUnavailable, match="Daily limit"):
+        client.generate_json(**ARGS)

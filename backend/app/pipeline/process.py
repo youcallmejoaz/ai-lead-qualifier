@@ -118,8 +118,12 @@ class Pipeline:
                 settings=settings,
                 citations=a.draft.citations if a.kind == "support" else None,
                 answerable=a.draft.answerable if a.kind == "support" else True,
-                # A support email from someone who scores like a strong lead.
-                sales_opportunity=a.kind == "support" and score.score >= icp["qualify_threshold"],
+                # A support email that also carries a buying signal: a stated budget and a strong score.
+                sales_opportunity=(
+                    a.kind == "support"
+                    and triage.fields.budget_usd.value is not None
+                    and score.score >= icp["qualify_threshold"]
+                ),
             )
             if a.draft.failed:
                 a.flags.append("draft_failed")

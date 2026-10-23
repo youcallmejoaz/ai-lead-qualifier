@@ -24,6 +24,8 @@ class Config:
     draft_model: str = field(default_factory=lambda: os.environ.get("DRAFT_MODEL", "claude-sonnet-5-5"))
     # "live": call Claude on a cache miss. "cache": never call Claude, cached results only.
     llm_mode: str = field(default_factory=lambda: os.environ.get("LLM_MODE", "live"))
+    # 0 means no cap. Set on public deployments.
+    daily_call_limit: int = field(default_factory=lambda: int(os.environ.get("DAILY_CALL_LIMIT", "0")))
     demo_mode: bool = field(default_factory=lambda: _env_bool("DEMO_MODE", True))
     data_dir: Path = DATA_DIR
     cache_path: Path = field(

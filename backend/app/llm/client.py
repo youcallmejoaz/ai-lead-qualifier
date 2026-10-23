@@ -1,6 +1,8 @@
 """Claude client that returns structured JSON, with a response cache in front."""
 
 import logging
+import threading
+from datetime import date
 from typing import Any, Protocol
 
 import anthropic
@@ -36,11 +38,26 @@ class LLMClient(Protocol):
 
 
 class ClaudeClient:
-    def __init__(self, cache: ResponseCache, *, live: bool, has_key: bool):
+    def __init__(self, cache: ResponseCache, *, live: bool, has_key: bool, daily_limit: int = 0):
         self.cache = cache
         self.live = live
         self.has_key = has_key
+        # Caps live calls per day so a public demo cannot run up the API bill. 0 means no cap.
+        self.daily_limit = daily_limit
+        self._day = date.today()
+        self._calls_today = 0
+        self._count_lock = threading.Lock()
         self._client: anthropic.Anthropic | None = None
+
+    def _take_call(self, purpose: str) -> None:
+        if not self.daily_limit:
+            return
+        with self._count_lock:
+            if date.today() != self._day:
+                self._day, self._calls_today = date.today(), 0
+            if self._calls_today >= self.daily_limit:
+                raise LLMUnavailable(f"Daily limit of {self.daily_limit} live Claude calls reached ({purpose})")
+            self._calls_today += 1
 
     def _sdk(self) -> anthropic.Anthropic:
         if self._client is None:
@@ -54,6 +71,7 @@ class ClaudeClient:
             return cached["output"]
         if not self.live or not self.has_key:
             raise LLMUnavailable(f"No cached {purpose} result and live calls are off")
+        self._take_call(purpose)
 
         request = dict(
             model=model,
