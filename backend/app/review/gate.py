@@ -12,6 +12,7 @@ AMBER_FLAGS = {
     "parse_failed",
     "no_citation",
     "no_relevant_doc",
+    "draft_failed",
 }
 # Informational flags: shown on the card, do not block anything.
 INFO_FLAGS = {"sales_opportunity", "merged_duplicate"}
