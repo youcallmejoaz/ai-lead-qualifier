@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# Node / front end
+node_modules/
+frontend/dist/
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+
+# Local data
+data/*.db
+data/*.db-journal
+
+# Raw recordings (only the trimmed MP4s in clips/ are committed)
+clips/raw/
+clips/tmp/
+*.webm
+*.mov
+
+.DS_Store

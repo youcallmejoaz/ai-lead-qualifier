@@ -1,0 +1,43 @@
+# Ideal customer profile for Fernhollow Digital (fictional).
+# Edit this file, or the Settings page, to change how leads are scored.
+# Each factor scores 0.0 to 1.0 and is multiplied by its weight. Weights add up to 100.
+
+qualify_threshold: 60
+
+weights:
+  industry: 30
+  company_size: 25
+  budget: 30
+  urgency: 15
+
+industry:
+  target: [logistics, freight, warehousing, professional services, accounting, legal, healthcare, clinic, manufacturing, ecommerce, e-commerce, retail]
+  adjacent: [construction, education, hospitality, real estate, nonprofit, insurance]
+  target_score: 1.0
+  adjacent_score: 0.5
+  other_score: 0.15
+  unknown_score: 0.3
+
+company_size:
+  # employees
+  min: 15
+  ideal_min: 50
+  ideal_max: 1000
+  below_min_score: 0.0
+  small_score: 0.5
+  ideal_score: 1.0
+  above_ideal_score: 0.7
+  unknown_score: 0.3
+
+budget:
+  # US dollars for the project
+  min_usd: 5000
+  ideal_usd: 20000
+  below_min_score: 0.1
+  unknown_score: 0.3
+
+urgency:
+  high: 1.0
+  medium: 0.6
+  low: 0.2
+  unknown: 0.3
