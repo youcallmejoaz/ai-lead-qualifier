@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="card.css">
+<style>
+.est { display: inline-block; margin-left: 18px; font-size: 24px; font-weight: 800; color: var(--amber); background: var(--amber-bg); border: 2px solid #f0c47a; border-radius: 10px; padding: 4px 16px; vertical-align: middle; letter-spacing: .04em; }
+.tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px; margin-top: 70px; }
+.tile { border: 3px solid var(--line); border-radius: 26px; padding: 40px; }
+.tile .v { font-size: 92px; font-weight: 800; letter-spacing: -0.03em; color: var(--green); }
+.tile .l { font-size: 28px; font-weight: 700; margin-top: 6px; }
+.tile .n { font-size: 22px; color: var(--muted); margin-top: 14px; line-height: 1.4; }
+</style></head><body>
+<div class="frame">
+  <div class="kicker in">Business value</div>
+  <div class="title in" style="animation-delay:.2s">What it could mean each week <span class="est">ESTIMATE</span></div>
+  <div class="tiles">
+    <div class="tile pop" style="animation-delay:1s"><div class="v" id="hours">-</div><div class="l">hours of sorting and copying saved</div><div class="n" id="hours_n"></div></div>
+    <div class="tile pop" style="animation-delay:2s"><div class="v" id="cost">-</div><div class="l">AI running cost</div><div class="n" id="cost_n"></div></div>
+    <div class="tile pop" style="animation-delay:3s"><div class="v">0</div><div class="l">emails sent without a person</div><div class="n">every reply and CRM entry is approved first</div></div>
+  </div>
+  <div class="foot in" style="animation-delay:4s">Estimates for illustration. Time saved assumes the minutes per enquiry shown; check against your own team.</div>
+</div>
+<script>
+// Values are injected by record.mjs (window.VALUES) from the recorded run; defaults are placeholders.
+const v = window.VALUES || { per_week: 100, minutes: 6, cost_per_enquiry: null };
+document.getElementById("hours").textContent = Math.round(v.per_week * v.minutes / 60) + "h";
+document.getElementById("hours_n").textContent = `${v.per_week} enquiries at about ${v.minutes} minutes each (assumption)`;
+document.getElementById("cost").textContent = v.cost_per_enquiry == null ? "TBC" : "$" + (v.cost_per_enquiry * v.per_week).toFixed(2);
+document.getElementById("cost_n").textContent = v.cost_per_enquiry == null ? "measured after the first real run" : `about $${v.cost_per_enquiry.toFixed(3)} per enquiry, measured on the 80 samples`;
+window.__duration = 8000;
+</script></body></html>

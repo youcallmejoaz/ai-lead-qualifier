@@ -1,0 +1,23 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="card.css">
+<style>
+.cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: 80px; }
+.box { border-radius: 26px; padding: 44px 40px; border: 3px solid; min-height: 420px; }
+.box .ico { font-size: 64px; }
+.box h3 { font-size: 38px; margin: 20px 0 16px; }
+.box p { font-size: 26px; line-height: 1.45; color: #2b3038; }
+.g { border-color: #9fd4bd; background: var(--green-bg); } .g h3 { color: var(--green); }
+.a { border-color: #f0c47a; background: var(--amber-bg); } .a h3 { color: var(--amber); }
+.r { border-color: #eba7a2; background: var(--red-bg); } .r h3 { color: var(--red); }
+.extra { margin-top: 40px; font-size: 26px; color: var(--muted); }
+</style></head><body>
+<div class="frame">
+  <div class="kicker in">What could go wrong</div>
+  <div class="title in" style="animation-delay:.2s">Three safeguards built in.</div>
+  <div class="cols">
+    <div class="box g pop" style="animation-delay:1s"><div class="ico">&#9995;</div><h3>Approval before send</h3><p>Nothing is emailed or written to the CRM until a person clicks Approve. Auto approve is off by default.</p></div>
+    <div class="box a pop" style="animation-delay:2.2s"><div class="ico">&#9888;</div><h3>Confidence flags</h3><p>When the AI is unsure about a category, a field or a source, the item turns amber and waits for a person.</p></div>
+    <div class="box r pop" style="animation-delay:3.4s"><div class="ico">&#9940;</div><h3>Injection guard</h3><p>Instructions hidden inside an email are treated as data, never followed, and the email is flagged.</p></div>
+  </div>
+  <div class="extra in" style="animation-delay:4.8s">Also: personal data kept out of logs, API keys only in environment variables.</div>
+</div>
+<script>window.__duration = 8000;</script></body></html>

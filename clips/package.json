@@ -1,0 +1,11 @@
+{
+  "name": "ai-lead-qualifier-clips",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "record": "node record.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.49.1"
+  }
+}

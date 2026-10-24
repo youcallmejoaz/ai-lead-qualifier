@@ -1,0 +1,29 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="card.css">
+<style>
+.flow { display: flex; align-items: center; justify-content: space-between; margin-top: 120px; }
+.step { width: 230px; height: 230px; border: 3px solid var(--line); border-radius: 26px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; text-align: center; font-size: 27px; font-weight: 700; background: #fff; opacity: .25; transition: all .4s; }
+.step .ico { font-size: 58px; line-height: 1; }
+.step small { font-size: 19px; font-weight: 500; color: var(--muted); padding: 0 12px; }
+.step.on { opacity: 1; border-color: #9fd4bd; box-shadow: 0 10px 30px rgba(24,121,78,.12); transform: translateY(-6px); }
+.step.person.on { border-color: var(--amber); background: var(--amber-bg); }
+.step.done.on { border-color: var(--green); background: var(--green-bg); }
+.arr { font-size: 46px; color: #c3c8d0; opacity: .3; transition: all .4s; }
+.arr.on { color: var(--green); opacity: 1; }
+</style></head><body>
+<div class="frame">
+  <div class="kicker in">How it works</div>
+  <div class="title in" style="animation-delay:.2s">AI does the reading. You make the call.</div>
+  <div class="flow" id="flow">
+    <div class="step"><div class="ico">&#9993;</div>Form and inbox<small>every enquiry comes in</small></div><div class="arr">&rarr;</div>
+    <div class="step"><div class="ico">&#9881;</div>AI sorts<small>sales, support, spam, other</small></div><div class="arr">&rarr;</div>
+    <div class="step"><div class="ico">&#9733;</div>Scores<small>against your ideal customer</small></div><div class="arr">&rarr;</div>
+    <div class="step"><div class="ico">&#9998;</div>Draft reply<small>personal, or from your help docs</small></div><div class="arr">&rarr;</div>
+    <div class="step person"><div class="ico">&#9995;</div>You approve<small>approve, edit or reject</small></div><div class="arr">&rarr;</div>
+    <div class="step done"><div class="ico">&#10003;</div>CRM and reply<small>written only after approval</small></div>
+  </div>
+</div>
+<script>
+const els = [...document.getElementById("flow").children];
+els.forEach((el, i) => setTimeout(() => el.classList.add("on"), 1100 + i * 650));
+window.__duration = 10000;
+</script></body></html>

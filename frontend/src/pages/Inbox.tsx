@@ -39,7 +39,9 @@ export function Inbox() {
   }, [busy]);
 
   async function processInbox() {
-    await api.processInbox(450);
+    // ?delay=ms slows sorting down so it can be watched (used by the demo recorder).
+    const delay = Number(new URLSearchParams(window.location.search).get("delay") ?? 250);
+    await api.processInbox(delay);
     setBusy(true);
   }
 

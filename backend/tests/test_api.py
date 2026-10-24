@@ -48,8 +48,13 @@ def test_contact_form_is_processed(client):
         "name": "Dana Whitlock", "email": "dana.whitlock@harbourline-freight.example",
         "company": "Harbourline Freight", "subject": "Automating booking emails into our TMS",
         "message": "Same as before"})
-    assert r.status_code == 200 and r.json()["queued"] is False
-    detail = client.get(f"/api/messages/{r.json()['id']}").json()
+    assert r.status_code == 200 and r.json()["queued"] is True
+    import time
+    for _ in range(50):
+        detail = client.get(f"/api/messages/{r.json()['id']}").json()
+        if detail["status"] == "processed":
+            break
+        time.sleep(0.1)
     assert detail["category"] == "Sales" and detail["fields"]["name"]["value"] == "Dana Whitlock"
 
 

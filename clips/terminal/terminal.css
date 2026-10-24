@@ -1,0 +1,15 @@
+* { box-sizing: border-box; margin: 0; }
+html, body { width: 1920px; height: 1080px; overflow: hidden; background: #0b0e13; }
+.win { position: absolute; inset: 70px 150px; background: #12161d; border: 1px solid #262c36; border-radius: 16px; overflow: hidden; box-shadow: 0 30px 80px rgba(0,0,0,.5); }
+.bar { height: 52px; background: #1a1f28; display: flex; align-items: center; padding: 0 20px; gap: 10px; }
+.dot { width: 14px; height: 14px; border-radius: 50%; }
+.bar .t { margin-left: 18px; color: #8b95a5; font: 500 18px Inter, system-ui, sans-serif; }
+.body { padding: 34px 40px; color: #d8dee9; font: 25px/1.55 "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; white-space: pre-wrap; }
+.prompt { color: #7fd1ae; }
+.user { color: #ffffff; }
+.dim { color: #7c8696; }
+.ok { color: #7fd1ae; }
+.warn { color: #f0c47a; }
+.head { color: #9ec5ff; font-weight: 700; }
+.caret { display: inline-block; width: 13px; height: 28px; background: #d8dee9; vertical-align: -5px; animation: blink 1s steps(1) infinite; }
+@keyframes blink { 50% { opacity: 0; } }

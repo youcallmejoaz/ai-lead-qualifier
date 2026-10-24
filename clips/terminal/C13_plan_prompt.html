@@ -1,0 +1,26 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="terminal.css"></head><body>
+<div class="win"><div class="bar"><span class="dot" style="background:#ff5f57"></span><span class="dot" style="background:#febc2e"></span><span class="dot" style="background:#28c840"></span><span class="t">claude  ~/ai-lead-qualifier</span></div>
+<div class="body" id="body"></div></div>
+<script src="replay.js"></script>
+<script>
+replay({
+  typeMs: 22,
+  prompt: "You are in plan mode. Read this whole brief, ask me any questions you need answered, then give me a phased plan (with file tree, data model and test plan) before you write any code.",
+  lines: [
+    ["gap", ""],
+    ["dim", "Read brief: AI inbound lead qualifier and inbox triage"],
+    ["warn", "4 questions: repo, API key, help doc search, database"],
+    ["gap", ""],
+    ["head", "Plan"],
+    ["", "  0  New repo, .gitignore, .env.example, Git LFS for clips"],
+    ["", "  1  Data model, 80 sample enquiries, scoring, dedupe, review gate"],
+    ["", "  2  Claude triage with structured outputs, response cache"],
+    ["", "  3  Help doc search, support drafts with citations, sales drafts"],
+    ["", "  4  API and dashboard: inbox, leads, CRM, review queue, summary"],
+    ["", "  5  Run all 80 for real, README, setup guide, Render"],
+    ["", "  6  Record the demo clips"],
+    ["gap", ""],
+    ["ok", "Waiting for your approval before writing any code."],
+  ],
+});
+</script></body></html>

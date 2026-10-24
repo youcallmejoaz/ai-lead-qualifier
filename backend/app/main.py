@@ -60,20 +60,25 @@ class State:
     def process_pending(self, delay_ms: int = 0) -> int:
         done = 0
         with session_scope(self.sessions) as session:
-            ids = [m.id for m in unprocessed(session)]
+            # Newest first, so the top of the inbox fills in first.
+            ids = [m.id for m in reversed(unprocessed(session))]
         for mid in ids:
-            with self.lock, session_scope(self.sessions) as session:
-                msg = session.get(Message, mid)
-                if msg is None or msg.status != "new":
-                    continue
-                try:
-                    process_message(session, self.pipeline, msg)
-                    done += 1
-                except LLMUnavailable:
-                    log.warning("message %s left unprocessed: no cached result and no live Claude", mid)
+            done += self.process_one(mid)
             if delay_ms:
                 time.sleep(delay_ms / 1000)
         return done
+
+    def process_one(self, mid: int) -> bool:
+        with self.lock, session_scope(self.sessions) as session:
+            msg = session.get(Message, mid)
+            if msg is None or msg.status != "new":
+                return False
+            try:
+                process_message(session, self.pipeline, msg)
+                return True
+            except LLMUnavailable:
+                log.warning("message %s left unprocessed: no cached result and no live Claude", mid)
+                return False
 
 
 def create_app(config: Config | None = None, pipeline: Pipeline | None = None, seed: bool = True) -> FastAPI:
@@ -118,13 +123,10 @@ def create_app(config: Config | None = None, pipeline: Pipeline | None = None, s
     def submit_form(form: ContactForm, request: Request):
         s = st(request)
         with s.lock, session_scope(s.sessions) as session:
-            msg = create_from_form(session, form)
-            try:
-                process_message(session, s.pipeline, msg)
-                queued = False
-            except LLMUnavailable:
-                queued = True
-            return {"id": msg.id, "queued": queued}
+            mid = create_from_form(session, form).id
+        # The visitor gets an instant reply; triage and drafting run in the background.
+        threading.Thread(target=s.process_one, args=(mid,), daemon=True).start()
+        return {"id": mid, "queued": True}
 
     @app.post("/api/inbox/process")
     def process_inbox(request: Request, delay_ms: int = 0):

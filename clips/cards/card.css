@@ -1,0 +1,14 @@
+* { box-sizing: border-box; margin: 0; }
+html, body { width: 1920px; height: 1080px; overflow: hidden; background: #ffffff; color: #16191f;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif; }
+:root { --green: #18794e; --green-bg: #e3f5ea; --amber: #b86a00; --amber-bg: #fff3dc; --red: #c2362f; --red-bg: #fbe8e7;
+  --muted: #5d6573; --line: #e3e6eb; }
+.frame { position: absolute; inset: 0; padding: 110px 140px; display: flex; flex-direction: column; }
+.kicker { font-size: 26px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--green); }
+.title { font-size: 76px; font-weight: 800; letter-spacing: -0.02em; line-height: 1.08; margin-top: 18px; }
+.sub { font-size: 32px; color: var(--muted); margin-top: 22px; max-width: 1400px; line-height: 1.4; }
+.in { opacity: 0; animation: in .6s ease-out forwards; }
+@keyframes in { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+.pop { opacity: 0; animation: pop .45s cubic-bezier(.2,1.4,.4,1) forwards; }
+@keyframes pop { from { opacity: 0; transform: scale(.7); } to { opacity: 1; transform: none; } }
+.foot { position: absolute; left: 140px; bottom: 70px; font-size: 22px; color: #8a92a0; }

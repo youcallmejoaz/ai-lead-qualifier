@@ -1,0 +1,21 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="terminal.css"></head><body>
+<div class="win"><div class="bar"><span class="dot" style="background:#ff5f57"></span><span class="dot" style="background:#febc2e"></span><span class="dot" style="background:#28c840"></span><span class="t">claude  ~/ai-lead-qualifier</span></div>
+<div class="body" id="body"></div></div>
+<script src="replay.js"></script>
+<script>
+replay({
+  typeMs: 24,
+  prompt: "Add the review queue: every draft waits with Approve, Edit and Reject. Nothing is sent or written to the CRM without a click. Auto approve stays off by default.",
+  lines: [
+    ["gap", ""],
+    ["dim", "Created  backend/app/review/approval.py   approval tokens"],
+    ["dim", "Created  backend/app/review/gate.py       amber flags, auto approve rule"],
+    ["dim", "Created  backend/app/review/service.py    approve, edit, reject"],
+    ["dim", "Created  frontend/src/pages/Review.tsx    review queue screen"],
+    ["gap", ""],
+    ["", "Running review gate tests"],
+    ["ok", "16 passed"],
+    ["ok", "CRM and outbox refuse any write without an approval"],
+  ],
+});
+</script></body></html>
