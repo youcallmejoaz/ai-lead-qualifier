@@ -14,4 +14,4 @@ node record.mjs --finalize                          # rebuild MANIFEST.md and th
 - Close ups (C05, C09) are rendered zoomed in the browser, so text stays sharp.
 - Cards (C01, C02, C15, C16) are animated HTML in `cards/`, recorded as video plus a PNG still each. C16 reads its cost per enquiry from the recorded Claude calls and is labelled as an estimate.
 - Prompt moments (C13, C14) are terminal style replays in `terminal/`. They contain no keys, emails or personal paths.
-- Frames come from Chrome's screencast at JPEG quality 95 and are encoded with ffmpeg (libx264, CRF 17). The MP4s are stored with Git LFS.
+- Frames come from Chrome's screencast at JPEG quality 95 and are encoded with ffmpeg (libx264, CRF 17). The MP4s are small (under 1 MB each), so they are stored as normal Git files.
