@@ -38,6 +38,8 @@ cd backend && ../.venv/bin/uvicorn app.main:app --port 8000
 
 Open http://localhost:8000. On first start the 80 sample enquiries are loaded and processed. Results already recorded in `data/llm_cache.json` are reused for free; anything else calls Claude.
 
+No API key yet? Start with `LLM_MODE=scripted` to run the whole app on hand written stand in outputs (`data/demo_outputs.json`, built by `scripts/build_demo_outputs.py`). The demo clips in `clips/` were recorded this way; see `clips/MANIFEST.md`.
+
 ## Tests
 
 ```bash

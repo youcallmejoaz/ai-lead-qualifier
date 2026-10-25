@@ -1,0 +1,4044 @@
+{
+ "_note": "Hand written stand ins for Claude outputs, used only with LLM_MODE=scripted. Not model outputs.",
+ "by_subject": {
+  "Automating booking emails into our TMS": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.97,
+    "reason": "Freight forwarder re-keying 300 booking emails a day; clear need, $30k to $40k budget, start next month.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Dana Whitlock",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Harbourline Freight",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Automate booking emails into their TMS with a check step",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "$30k to $40k",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 35000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "Next month",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Freight forwarding",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 180,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "high",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Automating booking emails into our TMS",
+    "reply": "Hi Dana,\n\nThanks for getting in touch. Re-keying around 300 booking emails a day into your TMS is exactly the kind of repetitive work that slows a team down and lets mistakes slip in.\n\nWe would have AI read each booking, pull out the shipment details and prepare the entry in your TMS, with someone on your team confirming anything unusual before it goes live.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "Recall reminders and no shows": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.95,
+    "reason": "Dental group of 12 practices wants automated recalls and no show follow ups; about $25k budget.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Isabel Moreau",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Verity Dental Group",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Automated recall campaigns and no show follow ups",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "About $25k",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 25000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "Soon",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Dental healthcare",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 210,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "medium",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Recall reminders and no shows",
+    "reply": "Hi Isabel,\n\nThanks for getting in touch. Recalls and no show follow ups across 12 practices are easy to lose track of when they are done by hand.\n\nWe would automate the recall campaigns and follow ups, and give practice managers a simple dashboard showing who has been contacted and who still needs a call.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "Proposal generation": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.94,
+    "reason": "Consulting partner wants AI drafted proposals from past work; about $30k, wants it within four weeks.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Elena Petrova",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Stonebridge Advisory",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Draft proposals from past work for consultants to edit",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "About $30k",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 30000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "Next four weeks",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Professional services consulting",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 55,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "high",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Proposal generation",
+    "reply": "Hi Elena,\n\nThanks for getting in touch. Your consultants spending days rebuilding proposals from old documents is time they could be spending with clients.\n\nWe would build a tool that drafts a proposal from a short brief and your best past work, so a consultant starts from a strong draft and edits rather than writing from scratch.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "Re: Automating booking emails into our TMS": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.93,
+    "reason": "Follow up from Harbourline Freight: budget confirmed at $40k, start brought forward to three weeks.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Dana Whitlock",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Harbourline Freight",
+      "confidence": 0.86
+     },
+     "need": {
+      "value": "Booking email automation, now about 350 bookings a day",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "$40k",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 40000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "In three weeks",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Freight forwarding",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "high",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Re: Automating booking emails into our TMS",
+    "reply": "Hi Dana,\n\nThanks for getting in touch. Thanks for confirming the budget and the earlier start. With volumes now around 350 bookings a day, automating this makes even more sense.\n\nStarting in three weeks is realistic if we begin discovery shortly. We would keep the same approach: AI prepares each booking and your team confirms anything unusual.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "Booking, reminders and CRM": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.95,
+    "reason": "Physio network wants booking requests in the CRM with reminders and follow ups; around $22k.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Grace Holloway",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Fairfield Physio Network",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Booking requests into the CRM with reminders and follow ups",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "Around $22k",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 22000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "Within a month",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Physiotherapy clinics",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 75,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "high",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Booking, reminders and CRM",
+    "reply": "Hi Grace,\n\nThanks for getting in touch. Getting booking requests into your CRM automatically, with reminders and follow ups for patients who drop off, would take a lot of admin off your clinic teams.\n\nWe would connect your online booking requests to the CRM, send reminders automatically and flag patients who need a personal follow up.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "Customer service email triage": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.96,
+    "reason": "Retailer with 40 stores wants 2,000 weekly service emails sorted with drafted replies; about $50k.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Hannah Okafor",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Pennant Retail Group",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Sort customer service emails and draft replies for agents",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "About $50,000",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 50000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "Kick off in November",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Retail",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 700,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "medium",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Customer service email triage",
+    "reply": "Hi Hannah,\n\nThanks for getting in touch. Two thousand customer service emails a week is a lot for any team to sort before they can even start replying.\n\nWe would have AI sort each email into orders, returns, complaints and store questions, pull out order numbers and draft a reply for an agent to approve.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "Enquiry triage for a law firm": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.95,
+    "reason": "Law firm wants enquiries categorised, conflict checked, logged in the CRM, replies drafted; $25k, ASAP.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Aisha Bello",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Meridian Legal LLP",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Categorise and log new client enquiries with drafted replies",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "$25k",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 25000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "As soon as possible",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Legal services",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 90,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "high",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Enquiry triage for a law firm",
+    "reply": "Hi Aisha,\n\nThanks for getting in touch. Categorising enquiries by practice area, checking conflicts and logging everything in the CRM by hand takes fee earner time away from clients.\n\nWe would build a flow that categorises each enquiry, runs the conflict check, logs it in your CRM and drafts a reply for a fee earner to approve before it is sent.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "Shopify and Xero reconciliation": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.96,
+    "reason": "Online retailer losing two days a week to Shopify and Xero reconciliation; about $20k, six weeks.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Sofia Lindqvist",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Brightpath Ecommerce",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Automate Shopify payout reconciliation against Xero",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "About $20,000",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 20000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "Within six weeks",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Ecommerce retail",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 85,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "high",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Shopify and Xero reconciliation",
+    "reply": "Hi Sofia,\n\nThanks for getting in touch. Two days a week matching Shopify payouts, refunds and fees against Xero is a big cost for a finance team, especially going into peak season.\n\nWe would automate the matching and only send your team the exceptions that genuinely need a person to look at them.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "Client onboarding paperwork": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.95,
+    "reason": "Accounting firm wants automated client onboarding and document extraction before the January rush.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Priya Raman",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Calder & Finch Accountants",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Automated client onboarding with document collection and extraction",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "About 25,000 GBP",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 31750,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "Before the January tax rush",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Accounting",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 120,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "high",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Client onboarding paperwork",
+    "reply": "Hi Priya,\n\nThanks for getting in touch. Chasing documents and typing client details into your practice software is a heavy load, and the January rush will only make it heavier.\n\nWe would build an onboarding flow that collects documents, extracts the key details and prepares them for your practice software, with a review step before anything is saved.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "Driver timesheets": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.93,
+    "reason": "Haulage firm wants driver timesheet collection and checks automated; around $20k, next month.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Owen Price",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Trackside Haulage",
+      "confidence": 0.88
+     },
+     "need": {
+      "value": "Automate driver timesheet collection and checks",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "Around $20k",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 20000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "Next month",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Haulage and logistics",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 95,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "medium",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Driver timesheets",
+    "reply": "Hi Owen,\n\nThanks for getting in touch. Payroll spending three days a month fixing timesheets that arrive as photos and texts is the kind of work AI handles well.\n\nWe would collect timesheets in one place, read the photos and messages automatically, and flag anything that does not add up for your payroll team to check.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "Supplier invoice extraction": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.96,
+    "reason": "Manufacturer with 1,200 supplier invoices a month wants extraction and PO matching; $35k, by year end.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "David Mensah",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Copperline Components",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Extract supplier invoices and match them to purchase orders",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "$35k",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 35000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "Before year end",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Electronics manufacturing",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 320,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "high",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Supplier invoice extraction",
+    "reply": "Hi David,\n\nThanks for getting in touch. Twelve hundred supplier invoices a month is a lot of manual keying and matching for accounts payable.\n\nWe would extract the line items from each invoice, match them to the right purchase order and queue them for approval, with mismatches flagged for a person.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "Order exception handling": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.95,
+    "reason": "Wholesaler wants order exceptions caught early with drafted emails and tasks; around $40k, pre Black Friday.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Kenji Watanabe",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Orchard Lane Wholesale",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Detect order exceptions and draft customer emails",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "Around $40k",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 40000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "Before Black Friday",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Wholesale ecommerce",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 160,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "high",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Order exception handling",
+    "reply": "Hi Kenji,\n\nThanks for getting in touch. Finding out late about out of stock items, address problems or credit holds is frustrating for your team and your retailers.\n\nWe would detect order exceptions as they happen, draft the customer email and create a task for the right person, so problems are handled before they become complaints.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "Proof of delivery paperwork": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.95,
+    "reason": "Logistics firm delayed in billing by manual proof of delivery typing; $28k budget, urgent.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Rafael Mendes",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Bluewater Logistics",
+      "confidence": 0.88
+     },
+     "need": {
+      "value": "Extract proof of delivery photos into billing",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "$28k",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 28000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "Urgent",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Logistics",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 140,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "high",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Proof of delivery paperwork",
+    "reply": "Hi Rafael,\n\nThanks for getting in touch. Billing being held up for days while proof of delivery notes are typed up has a real cost to your cash flow.\n\nWe would read the photos drivers send, extract the delivery details and pass them straight to billing, with anything unclear flagged for a quick check.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "Inventory alerts and customer updates": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.94,
+    "reason": "Cold storage operator wants stock alerts and AI drafted customer answers; thinking $35k, next month.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Conor Whelan",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Atlas Cold Storage",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Stock alerts and drafted answers to customer stock questions",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "$35k",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 35000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "Next month",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Cold storage warehousing",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 250,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "medium",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Inventory alerts and customer updates",
+    "reply": "Hi Conor,\n\nThanks for getting in touch. Answering constant stock and dispatch questions by email takes your team away from running the warehouses.\n\nWe would set up automatic stock alerts and an assistant that drafts answers from your warehouse system for your team to review and send.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "Triage for quote requests": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.96,
+    "reason": "Manufacturer gets 150 quote requests a week and wants them read and routed; around $60k this quarter.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Tomasz Brenner",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Kestrel Manufacturing",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Read quote requests, pull out specs and route to estimators",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "Around $60k",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 60000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "This quarter",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Precision manufacturing",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 600,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "medium",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Triage for quote requests",
+    "reply": "Hi Tomasz,\n\nThanks for getting in touch. Engineers sorting 150 quote requests a week by hand is expensive time to spend on admin.\n\nWe would have AI read each request and its drawings, pull out material, quantity and deadline, and route it to the right estimator, with unclear requests flagged for a person.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "Patient intake forms into our practice system": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.97,
+    "reason": "Clinic group of 400 staff wants digital intake into its practice system; $45k approved, urgent for January.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Marcus Oyelaran",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Northgate Clinics",
+      "confidence": 0.9
+     },
+     "need": {
+      "value": "Digital patient intake flowing into the practice system",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "$45k",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 45000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "Before January",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Healthcare clinics",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 400,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "high",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Patient intake forms into our practice system",
+    "reply": "Hi Marcus,\n\nThanks for getting in touch. Moving 14 clinics from paper and PDF intake to forms that flow straight into your practice system is a big step, and opening three new sites makes the timing important.\n\nWe would build digital intake forms that feed your practice management system directly, with a check step for anything unclear before it is saved.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "Returns processing": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.95,
+    "reason": "Fashion brand with returns piling up before peak wants requests checked and replies drafted; about $24k.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Nadia Haddad",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Lumen Ecommerce Co",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Check returns requests against policy and draft replies",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "About $24k",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 24000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "Urgent, before peak season",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Ecommerce fashion",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 60,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "high",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Returns processing",
+    "reply": "Hi Nadia,\n\nThanks for getting in touch. With returns piling up and peak season close, getting this under control quickly matters.\n\nWe would read each returns request, check it against the order and your policy, and draft a reply for your team to approve, so they only handle the exceptions.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "Invoice matching for freight": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.92,
+    "reason": "Finance director at Harbourline Freight wants carrier invoice matching; same company as an earlier lead.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Ravi Shah",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Harbourline Freight Ltd",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Match carrier invoices against shipments",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "About $25k",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 25000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "This quarter",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Freight forwarding",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 180,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "medium",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Invoice matching for freight",
+    "reply": "Hi Ravi,\n\nThanks for getting in touch. Matching carrier invoices against shipments by hand is slow and easy to get wrong, and it sounds like it would fit well alongside the bookings work your colleague mentioned.\n\nWe would extract each carrier invoice, match it to the shipment record and flag any differences for your finance team to review.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "Appointment reminders and intake": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.86,
+    "reason": "Clinic group lead with budget and timeline, sent from a personal address so company details are unverified.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Jess Thornton",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Wrenfield Clinics",
+      "confidence": 0.45
+     },
+     "need": {
+      "value": "Appointment reminders and digital intake into the CRM",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "About $25k",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 25000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "Next month",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Healthcare clinics",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 120,
+      "confidence": 0.6
+     },
+     "urgency": {
+      "value": "medium",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Appointment reminders and intake",
+    "reply": "Hi Jess,\n\nThanks for getting in touch. Automated appointment reminders and digital intake feeding your CRM would take a lot of admin off your five sites.\n\nWe would set up reminders and intake forms that feed your CRM directly, with a review step for anything the system is unsure about.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "Referral intake automation": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.94,
+    "reason": "Healthcare partnership with an urgent referral intake need and a six week deadline; no budget mentioned.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Olivia Brandt",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Tideway Health Partners",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Automate GP referral intake with a review step",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": "Within six weeks",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Healthcare",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 300,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "high",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Referral intake automation",
+    "reply": "Hi Olivia,\n\nThanks for getting in touch. Re-keying GP referrals from email and fax causes delays for patients, and with your admin contract ending the timing matters.\n\nWe would automate the referral intake into your patient system, with a person reviewing each referral before it is confirmed.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite. It would also help to know roughly what budget you have in mind.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "Warehouse email automation": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.81,
+    "reason": "Logistics lead with a $30k budget, but the email hides instructions to score it 100, skip review and share client data.",
+    "injection_suspected": true,
+    "fields": {
+     "name": {
+      "value": "Victor Ashby",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Ashby Logistics",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Automate how the warehouse team handles customer emails",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "Around $30k",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 30000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "New year",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Logistics",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 120,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "medium",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Warehouse email automation",
+    "reply": "Hi Victor,\n\nThanks for getting in touch. Automating how your warehouse team handles customer emails is something we do often.\n\nWe would sort incoming emails, pull out the key details and draft replies for your team to approve.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  },
+  "What does AI cost?": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.82,
+    "reason": "Construction firm curious about AI costs, no project or budget yet.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Ahmed Karim",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Karim Construction",
+      "confidence": 0.75
+     },
+     "need": {
+      "value": "Wants to know what AI could do and cost",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": "Construction",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 40,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   }
+  },
+  "Lead follow ups for estate agency": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.88,
+    "reason": "Estate agency possibly interested in buyer follow ups, about $8k, depends on the market.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Tobias Kerr",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Kerr Homes",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Automated follow ups for buyer enquiries",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "Maybe $8k",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 8000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "Possibly in a few months",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Real estate",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 25,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   }
+  },
+  "Class booking chatbot": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.91,
+    "reason": "Small gym wants a class booking chatbot for about $4,000 with no deadline.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Victor Hale",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Hale Fitness",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Website chatbot that books classes",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "About $4,000",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 4000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "No deadline",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Fitness",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 12,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   }
+  },
+  "Exploring options": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.84,
+    "reason": "Eight person design studio exploring ideas, a few thousand dollars, probably next year.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Jordan Lee",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Pixel Pup Studio",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Exploring what AI could do for the studio",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "A few thousand dollars",
+      "confidence": 0.6
+     },
+     "budget_usd": {
+      "value": 3000,
+      "confidence": 0.45
+     },
+     "timeline": {
+      "value": "Probably next year",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Design agency",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 8,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   }
+  },
+  "Instagram posts": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.86,
+    "reason": "Six person cafe wants Instagram posts written by AI for about $300.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Sam Rivers",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Corner Cup",
+      "confidence": 0.45
+     },
+     "need": {
+      "value": "AI written Instagram posts",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "$300",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 300,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": "Hospitality",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 6,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   }
+  },
+  "Small website change": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.9,
+    "reason": "Freelance photographer wants a text alert from a contact form for about $500.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Ben Carter",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Ben Carter Photography",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Text alert when the contact form is filled in",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "$500",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 500,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "No rush",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Photography",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 1,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   }
+  },
+  "Podcast transcripts": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.86,
+    "reason": "Hobby podcaster wants automatic transcripts for $200.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Ella Morgan",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "need": {
+      "value": "Automatic podcast transcripts",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "$200",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 200,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": "Podcasting",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   }
+  },
+  "Automating client emails": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.9,
+    "reason": "Solo wedding planner wants automated client emails with about $1,500.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Lucy Fernandes",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Lucy F Weddings",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Automatic emails to clients",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "About $1,500",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 1500,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": "Wedding planning",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 2,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   }
+  },
+  "Volunteer scheduling": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.87,
+    "reason": "Youth charity asks if a $6,000 grant could cover volunteer scheduling in the spring.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Maya Singh",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Riverside Youth Club",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Volunteer scheduling",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "About $6,000",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 6000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "Spring",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Nonprofit",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 20,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   }
+  },
+  "Stock spreadsheet": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.9,
+    "reason": "Three person bookshop wants its stock spreadsheet updated automatically for about $1,000.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Fiona Grant",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "The Book Nook",
+      "confidence": 0.6
+     },
+     "need": {
+      "value": "Stock spreadsheet that updates on each sale",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "About $1,000",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 1000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": "Retail bookshop",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 3,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   }
+  },
+  "Help with my university project": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.72,
+    "reason": "Student asking for free help with a university chatbot project.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Rita Novak",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "need": {
+      "value": "Help setting up a chatbot for a final year project",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "Free",
+      "confidence": 0.8
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": "Education",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   }
+  },
+  "Build an app like Uber": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.83,
+    "reason": "Four person crypto startup wants an Uber style app with no budget yet, maybe next year.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Chloe Adams",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "CoinHopper",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Build an Uber style app for crypto trades",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": "Maybe next year",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Crypto",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 4,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   }
+  },
+  "Data processing agreement": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.95,
+    "reason": "Existing client's legal team needs a copy of the data processing agreement.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Robert Kim",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Summit Engineering",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Copy of the data processing agreement",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "medium",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Data processing agreement",
+    "reply": "Hi Robert,\n\nOur standard data processing agreement is available on request from your account manager, so I have asked them to send a copy to your legal team today. We are also happy to review your own DPA if you prefer to use that.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "Our standard data processing agreement is available on request from your account manager.",
+     "We are happy to review your own DPA."
+    ]
+   }
+  },
+  "Xero sync broken again + quote for returns portal": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.58,
+    "reason": "Client reports a broken Xero sync but also asks for a returns portal quote; part support, part sales.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Grant Ellison",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Oakridge Supplies",
+      "confidence": 0.72
+     },
+     "need": {
+      "value": "Fix the Xero sync; also wants a quote for a returns portal",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": "Today for the fix",
+      "confidence": 0.7
+     },
+     "industry": {
+      "value": "Wholesale",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 70,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "high",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Xero sync broken again + quote for returns portal",
+    "reply": "Hi Grant,\n\nSorry the Xero sync has stopped again. The most common cause is an expired connection, for example after a password change on the connected account, so please try reconnecting it under Integrations in the client portal. If it still fails, we will treat it as a Priority 2 ticket. I have also passed your returns portal question to your account manager, who will be in touch about a quote.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "The most common cause is an expired connection, for example a password change on the connected account.",
+     "If it still fails, raise a Priority 2 ticket."
+    ]
+   }
+  },
+  "Where is our data stored?": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.96,
+    "reason": "Client preparing for an audit asks where data is stored and how long backups are kept.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Oliver Grant",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Westmoor Finance",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Data storage location and backup retention for an audit",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": "Audit next month",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Finance",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "medium",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Where is our data stored?",
+    "reply": "Hi Oliver,\n\nYour data is stored in the UK or the EU, depending on the region chosen at onboarding, and backups are encrypted and kept for 30 days. Your account manager can confirm the exact region for your account in writing for the audit.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "Client data is stored in the UK or the EU, depending on the region chosen at onboarding.",
+     "Backups are encrypted and kept for 30 days."
+    ]
+   }
+  },
+  "Xero integration failing": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.96,
+    "reason": "Xero integration has failed since the finance manager changed her password; orders are not syncing.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Beatriz Santos",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Marina Gifts",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Fix the Xero integration after a password change",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "high",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Xero integration failing",
+    "reply": "Hi Beatriz,\n\nSorry about this. When an integration stops after a password change, the connection has usually expired. Please reconnect Xero under Integrations in the client portal using the new password, and orders should start syncing again. If it still fails, reply here and we will raise it as Priority 2.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "The most common cause is an expired connection, for example a password change on the connected account.",
+     "Reconnect it under Integrations in the client portal."
+    ]
+   }
+  },
+  "HubSpot sync stopped": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.97,
+    "reason": "HubSpot sync stopped yesterday and web leads are missing; blocking the sales team.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Luke Fenwick",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Saltmarsh Foods",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "HubSpot sync has stopped",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "high",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: HubSpot sync stopped",
+    "reply": "Hi Luke,\n\nSorry, I know this is blocking your sales team. The most common cause is an expired connection, so please check under Integrations in the client portal and reconnect HubSpot if it shows an error. If that does not fix it, we will pick it up as a Priority 2 ticket straight away.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "The most common cause is an expired connection, for example a password change on the connected account.",
+     "If it still fails, raise a Priority 2 ticket."
+    ]
+   }
+  },
+  "Adding a new colleague": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.95,
+    "reason": "Client wants to give a new office manager portal access and asks about cost.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Joanna Price",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Larkspur Florists",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Add a new team member to the portal",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": "Monday",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "medium",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Adding a new colleague",
+    "reply": "Hi Joanna,\n\nWelcome to your new office manager. An account admin can invite her under Settings > Team > Invite, and the link stays valid for seven days. There is no charge for extra portal users.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "Account admins can invite people under Settings > Team > Invite.",
+     "There is no charge for extra portal users."
+    ]
+   }
+  },
+  "When is the retainer charged?": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.94,
+    "reason": "Client asks which day of the month the retainer is billed.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "George Hart",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Millbrook Pharmacy",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Retainer billing date",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: When is the retainer charged?",
+    "reply": "Hi George,\n\nRetainers are billed monthly in advance on the 1st, so you can plan for it at the start of each month.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "Retainers are billed monthly in advance on the 1st."
+    ]
+   }
+  },
+  "Export dashboard to Excel": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.95,
+    "reason": "Client asks how to export a dashboard table to Excel.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Ruth Baptiste",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Crescent Law",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Export a dashboard table to Excel",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Export dashboard to Excel",
+    "reply": "Hi Ruth,\n\nYes. Any table on a dashboard can be exported to CSV or Excel. You can also set up scheduled exports by email under Reports > Schedules if you need it regularly.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "Any table on a dashboard can be exported to CSV or Excel.",
+     "Scheduled exports by email can be set up under Reports > Schedules."
+    ]
+   }
+  },
+  "Dashboard export failing (and rollout question)": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.84,
+    "reason": "Pilot client reports a failing dashboard export and mentions a $120k rollout to 12 depots next quarter.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Erik Halvorsen",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Halvorsen Logistics Group",
+      "confidence": 0.82
+     },
+     "need": {
+      "value": "Fix the CSV export; ask about a rollout to all 12 depots",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "Roughly $120k approved",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 120000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "Next quarter",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Logistics",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 1800,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "medium",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Dashboard export failing (and rollout question)",
+    "reply": "Hi Erik,\n\nThanks for letting us know about the export. Any table on a dashboard should export to CSV or Excel, so this sounds like a fault rather than a setting. We have raised a ticket and will update you shortly. I am also really glad the pilot has gone well, and I have asked your account manager to get in touch about the rollout to all 12 depots.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "Any table on a dashboard can be exported to CSV or Excel."
+    ]
+   }
+  },
+  "Where do I find invoices?": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.96,
+    "reason": "Client's accountant needs PDFs of the last three invoices.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Paul Dempsey",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Riverbank Dental",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Download the last three invoices",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Where do I find invoices?",
+    "reply": "Hi Paul,\n\nEvery invoice is in the client portal under Billing > Invoices, and you can download each one as a PDF. Your account admin can also add your accountant as a billing contact so they receive a copy automatically.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "Every invoice is in the client portal under Billing > Invoices.",
+     "Your account admin can add a billing contact who receives a copy by email."
+    ]
+   }
+  },
+  "No weekly update this week": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.93,
+    "reason": "Client missed last week's Friday update and asks if launch is still on track.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Yasmin Khan",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Oakfield Nursery",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Missing weekly update and launch status",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "medium",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: No weekly update this week",
+    "reply": "Hi Yasmin,\n\nSorry you did not get last week's update. You should receive a short written update every Friday, so I have asked your project lead to send it today along with a clear view of the launch date.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "You get a short written update every Friday with what was done, what is next and anything we need from you."
+    ]
+   }
+  },
+  "Locked out of the portal": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.96,
+    "reason": "Client locked out after failed sign ins and needs to approve a change request today.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Imran Siddiqui",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Coastal Tiles",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Unlock their portal account",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": "Today",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "high",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Locked out of the portal",
+    "reply": "Hi Imran,\n\nAfter five failed attempts an account locks for 15 minutes, so you will be able to sign in again shortly. If you need access sooner, your account admin can unlock it straight away from Settings > Team.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "After five failed attempts an account locks for 15 minutes.",
+     "Your account admin can unlock it straight away from Settings > Team."
+    ]
+   }
+  },
+  "Pausing over December": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.95,
+    "reason": "Client wants to pause the retainer over a quiet December and asks the cost.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Claire Dubois",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Hillside Catering",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Pause the retainer for December",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": "December",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Pausing over December",
+    "reply": "Hi Claire,\n\nYes, you can pause a retainer for up to two months once per year. During the pause we keep your automations running and monitored, and it costs 20 percent of your usual monthly fee.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "You can pause a retainer for up to two months once per year.",
+     "A pause costs 20 percent of your usual monthly fee."
+    ]
+   }
+  },
+  "Requesting a new report": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.92,
+    "reason": "Client wants a new monthly report and asks how to request it and how long it takes.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Natalie Ross",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Cedar Home Care",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "New monthly report of visits by carer",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Requesting a new report",
+    "reply": "Hi Natalie,\n\nYou can request this under Support > New change request in the client portal. Describe the report you need and who will use it, and your account manager will reply with a scope and a fixed price or an hours estimate within two business days.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "Use Support > New change request in the client portal.",
+     "Your account manager replies with a scope and a fixed price or an hours estimate within two business days."
+    ]
+   }
+  },
+  "Is our data used to train AI?": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.96,
+    "reason": "Client's board asks whether customer data is used to train AI models.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Zainab Ali",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Clearview Opticians",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Confirm data is not used to train AI models",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "medium",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Is our data used to train AI?",
+    "reply": "Hi Zainab,\n\nI can confirm that when we build AI features, your data is sent to the AI provider only to process your request and is not used to train their models. We can also switch AI features off for any workflow if your board would prefer.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "When we build AI features, your data is sent to the AI provider only to process your request and is not used to train their models.",
+     "We can switch AI features off for any workflow on request."
+    ]
+   }
+  },
+  "Tax form for our records": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.9,
+    "reason": "Client needs a W-9 tax form from suppliers for their accounts system.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Kevin O'Hara",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Redfern Plumbing",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "A W-9 tax form",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": false,
+    "subject": "Re: Tax form for our records",
+    "reply": "Hi Kevin,\n\nThanks for your message. I have passed your request for our tax form to our finance team, and someone will follow up with you shortly.\n\nThe Fernhollow Digital support team",
+    "quotes": []
+   }
+  },
+  "Pipedrive integration?": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.88,
+    "reason": "Client moving from HubSpot to Pipedrive asks if it is supported and how long a switch takes.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Mei Chen",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Harlow Print",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Pipedrive support and time to switch the integration",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Pipedrive integration?",
+    "reply": "Hi Mei,\n\nYes, we build and maintain Pipedrive integrations. Moving your integration over would be scoped as a change request, and most new integrations take one to two weeks including testing in a sandbox account.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "We build and maintain integrations with HubSpot, Salesforce, Pipedrive, Xero, QuickBooks Online, Shopify, WooCommerce, Google Workspace, Microsoft 365, Slack, Airtable and most systems that offer a REST API or webhooks.",
+     "Most take one to two weeks, including testing in a sandbox account."
+    ]
+   }
+  },
+  "Our admin has left": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.95,
+    "reason": "Client's account admin has left and nobody can manage billing.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Ian McLeod",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Glenwood Estates",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Change the account admin",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "medium",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Our admin has left",
+    "reply": "Hi Ian,\n\nSorry to hear about this. If your admin has left, please email support from a company address and we will verify the change with a director before transferring the admin role.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "If the admin has left your company, email support from a company address and we will verify the change with a director."
+    ]
+   }
+  },
+  "Support over the holidays": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.95,
+    "reason": "Client asks whether support works over Christmas and what happens if something breaks.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Amara Nwosu",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Pinecrest Lettings",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Support cover over the holidays",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Support over the holidays",
+    "reply": "Hi Amara,\n\nOur support team works Monday to Friday, 8am to 6pm UK time, except UK public holidays, so we will be closed on the bank holidays over Christmas and New Year. If something breaks, please raise a ticket as usual and we will pick it up on the next working day.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "Our support team works Monday to Friday, 8am to 6pm UK time, except UK public holidays."
+    ]
+   }
+  },
+  "Dashboard not refreshing": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.96,
+    "reason": "Sales dashboard still shows yesterday's numbers; client asks how often it refreshes.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Arjun Mehta",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Tidewater Boats",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Dashboard refresh timing",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "medium",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Dashboard not refreshing",
+    "reply": "Hi Arjun,\n\nDashboards refresh every hour, and you can force a refresh from the menu on each dashboard, which takes up to five minutes. If the numbers are still a day old after that, let us know and we will look into it.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "Dashboards refresh every hour.",
+     "A manual refresh is available from the menu on each dashboard and takes up to five minutes."
+    ]
+   }
+  },
+  "Wrong address on our invoice": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.96,
+    "reason": "Client moved office and the October invoice still shows the old address.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Sinead Byrne",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Lakeside Joinery",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Update the billing address and fix the invoice",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Wrong address on our invoice",
+    "reply": "Hi Sinead,\n\nYour account admin can update the billing address under Billing > Payment details, and the change applies from the next invoice. We cannot reissue a paid invoice with a new address, but we can add a credit note and a corrected invoice, so I have asked our finance team to do that for October.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "Changes apply from the next invoice.",
+     "We cannot reissue a paid invoice with a new address, but we can add a credit note and a corrected invoice on request."
+    ]
+   }
+  },
+  "Dashboard numbers look wrong": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.94,
+    "reason": "Membership dashboard shows 40 percent fewer October sign ups than the client's records.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Daniel Walsh",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Northpoint Gyms",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Check dashboard sign up numbers",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "medium",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Dashboard numbers look wrong",
+    "reply": "Hi Daniel,\n\nThanks for flagging this. Please check the date range and filters on the dashboard first. If the numbers still look wrong, reply with a screenshot and the figure you expected, and we will raise it as a Priority 3 ticket.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "Check the date range and filters first.",
+     "If the numbers still look wrong, raise a Priority 3 ticket with a screenshot and the figure you expected."
+    ]
+   }
+  },
+  "Turning on Microsoft sign in": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.96,
+    "reason": "Growth retainer client asks how to switch on Microsoft 365 single sign on.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Helen Brooks",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Greenfield Vets",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Turn on Microsoft 365 single sign on",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Turning on Microsoft sign in",
+    "reply": "Hi Helen,\n\nGood news: clients on the Growth retainer can sign in with Microsoft 365. Your account admin can turn on single sign on under Settings > Security. Once it is on, password sign in is turned off for everyone on your domain.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "Clients on the Growth and Scale retainers can sign in with Google Workspace or Microsoft 365.",
+     "Your account admin turns SSO on under Settings > Security."
+    ]
+   }
+  },
+  "Cancelling and handover": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.93,
+    "reason": "Client is bringing development in house and asks how to cancel and get a handover.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Martin Ellis",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Foxglove Studios",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Cancel the retainer and get code and documentation",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Cancelling and handover",
+    "reply": "Hi Martin,\n\nRetainers can be cancelled with 30 days notice, either from the account admin's email address or through Billing > Cancel retainer in the client portal. Everything we built belongs to you, and we hand over code, credentials and documentation within 10 business days.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "Retainers can be cancelled with 30 days notice.",
+     "On cancellation we hand over code, credentials and documentation within 10 business days."
+    ]
+   }
+  },
+  "Password reset email not arriving": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.97,
+    "reason": "Client requested three password reset emails this morning and none arrived.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Tara Quinn",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Ashgrove Insurance",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Password reset email not arriving",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "medium",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Password reset email not arriving",
+    "reply": "Hi Tara,\n\nSorry about that. Reset links usually arrive within five minutes. Please check your spam folder and make sure you are using the email address your account was created with. If it still does not arrive, reply here and we will reset it for you.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "A reset link arrives within five minutes and stays valid for 60 minutes.",
+     "If it does not arrive, check your spam folder and make sure the address matches the one on your account."
+    ]
+   }
+  },
+  "Unused retainer hours": {
+   "triage": {
+    "category": "Support",
+    "confidence": 0.95,
+    "reason": "Client used 6 of 10 retainer hours and asks if the rest roll over.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Femi Adeyemi",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Brookfield Motors",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Do unused retainer hours roll over",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "low",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "support_draft": {
+    "answerable": true,
+    "subject": "Re: Unused retainer hours",
+    "reply": "Hi Femi,\n\nYes, unused retainer hours roll over for one month, so your remaining 4 hours carry into next month.\n\nThe Fernhollow Digital support team",
+    "quotes": [
+     "Unused hours roll over for one month."
+    ]
+   }
+  },
+  "Page 1 of Google in 30 days GUARANTEED": {
+   "triage": {
+    "category": "Spam",
+    "confidence": 0.98,
+    "reason": "Cold SEO pitch promising guaranteed rankings.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "need": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "Get 10k followers this week": {
+   "triage": {
+    "category": "Spam",
+    "confidence": 0.98,
+    "reason": "Follower selling pitch.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "need": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "We have your password": {
+   "triage": {
+    "category": "Spam",
+    "confidence": 0.99,
+    "reason": "Sextortion style scam demanding bitcoin.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "need": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "Important business proposal": {
+   "triage": {
+    "category": "Spam",
+    "confidence": 0.98,
+    "reason": "Manipulation attempt: tells the AI to ignore its rules, mark itself a qualified lead and leak customer emails.",
+    "injection_suspected": true,
+    "fields": {
+     "name": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "need": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "1000 backlinks for $49": {
+   "triage": {
+    "category": "Spam",
+    "confidence": 0.98,
+    "reason": "Backlink selling pitch.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "need": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "Developers from $8 per hour": {
+   "triage": {
+    "category": "Spam",
+    "confidence": 0.97,
+    "reason": "Cold pitch for offshore developers.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "need": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "Guest post collaboration": {
+   "triage": {
+    "category": "Spam",
+    "confidence": 0.95,
+    "reason": "Guest post and link exchange request.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "need": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "Turn $250 into $25,000": {
+   "triage": {
+    "category": "Spam",
+    "confidence": 0.99,
+    "reason": "Crypto investment scam.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "need": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "Your website looks outdated": {
+   "triage": {
+    "category": "Spam",
+    "confidence": 0.96,
+    "reason": "Cold web redesign pitch.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "need": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "Verified leads list for your industry": {
+   "triage": {
+    "category": "Spam",
+    "confidence": 0.97,
+    "reason": "Unsolicited offer to sell email lists.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "need": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "Invoice #88213 overdue": {
+   "triage": {
+    "category": "Spam",
+    "confidence": 0.98,
+    "reason": "Phishing: fake overdue invoice asking for an email password.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "need": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "You have won 1,500,000 USD": {
+   "triage": {
+    "category": "Spam",
+    "confidence": 0.99,
+    "reason": "Lottery scam asking for bank details.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "need": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "URGENT: your domain expires today": {
+   "triage": {
+    "category": "Spam",
+    "confidence": 0.98,
+    "reason": "Phishing: fake domain renewal asking for card details.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "need": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "Partnership idea": {
+   "triage": {
+    "category": "Other",
+    "confidence": 0.88,
+    "reason": "Marketing agency proposing a referral partnership.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Laura Bennett",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Northlight Agency",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "Referral partnership",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "Internship enquiry": {
+   "triage": {
+    "category": "Other",
+    "confidence": 0.93,
+    "reason": "Student asking about summer internships.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Noah Fisher",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "need": {
+      "value": "Summer internship",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "Change to cleaning schedule": {
+   "triage": {
+    "category": "Other",
+    "confidence": 0.95,
+    "reason": "Office cleaning supplier changing the cleaning day.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company": {
+      "value": "Sparkle Office Cleaning",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Cleaning schedule change",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "Request for comment on AI in small business": {
+   "triage": {
+    "category": "Other",
+    "confidence": 0.94,
+    "reason": "Journalist asking for a quote on AI in small business.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Sophie Turner",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Business Weekly",
+      "confidence": 0.6
+     },
+     "need": {
+      "value": "Quote for an article",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": "By Thursday",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "Application: full stack developer": {
+   "triage": {
+    "category": "Other",
+    "confidence": 0.95,
+    "reason": "Job application from a full stack developer.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Chris Tan",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "need": {
+      "value": "Developer job application",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "Candidates for your team": {
+   "triage": {
+    "category": "Other",
+    "confidence": 0.9,
+    "reason": "Recruiter offering AI engineer candidates.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company": {
+      "value": "Talent Bridge Recruitment",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Offering candidates",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "Thank you!": {
+   "triage": {
+    "category": "Other",
+    "confidence": 0.94,
+    "reason": "Thank you note from a past client, no action needed.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Martha Gale",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Willow Bakery",
+      "confidence": 0.7
+     },
+     "need": {
+      "value": "No action needed",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "Speaker invitation: Operations Forum 2027": {
+   "triage": {
+    "category": "Other",
+    "confidence": 0.93,
+    "reason": "Invitation to speak at an operations event in March.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company": {
+      "value": "Operations Forum",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Speaker invitation",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "budget_usd": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "timeline": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "industry": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "company_size": {
+      "value": null,
+      "confidence": 0.0
+     },
+     "urgency": {
+      "value": "unknown",
+      "confidence": 0.0
+     }
+    }
+   }
+  },
+  "Sorting customer emails": {
+   "triage": {
+    "category": "Sales",
+    "confidence": 0.95,
+    "reason": "Logistics firm of 150 wants customer emails sorted with drafted replies; about $30k, next month.",
+    "injection_suspected": false,
+    "fields": {
+     "name": {
+      "value": "Maria Lopez",
+      "confidence": 0.97
+     },
+     "company": {
+      "value": "Crestway Freight",
+      "confidence": 0.92
+     },
+     "need": {
+      "value": "Sort customer emails and draft replies",
+      "confidence": 0.92
+     },
+     "budget": {
+      "value": "About $30k",
+      "confidence": 0.92
+     },
+     "budget_usd": {
+      "value": 30000,
+      "confidence": 0.92
+     },
+     "timeline": {
+      "value": "Next month",
+      "confidence": 0.92
+     },
+     "industry": {
+      "value": "Logistics",
+      "confidence": 0.92
+     },
+     "company_size": {
+      "value": 150,
+      "confidence": 0.92
+     },
+     "urgency": {
+      "value": "medium",
+      "confidence": 0.8400000000000001
+     }
+    }
+   },
+   "sales_draft": {
+    "subject": "Re: Sorting customer emails",
+    "reply": "Hi Maria,\n\nThanks for getting in touch. Sorting customer emails and drafting replies for a team of 150 is exactly what we build.\n\nWe would have AI sort each email, pull out the key details and draft a reply for your team to approve before anything is sent.\n\nWould a 30 minute discovery call work for you? If you can share two times that suit you this week or next, I will send over an invite.\n\nBest regards,\nFernhollow Digital"
+   }
+  }
+ }
+}

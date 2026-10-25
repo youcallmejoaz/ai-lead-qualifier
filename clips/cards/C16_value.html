@@ -23,6 +23,6 @@ const v = window.VALUES || { per_week: 100, minutes: 6, cost_per_enquiry: null }
 document.getElementById("hours").textContent = Math.round(v.per_week * v.minutes / 60) + "h";
 document.getElementById("hours_n").textContent = `${v.per_week} enquiries at about ${v.minutes} minutes each (assumption)`;
 document.getElementById("cost").textContent = v.cost_per_enquiry == null ? "TBC" : "$" + (v.cost_per_enquiry * v.per_week).toFixed(2);
-document.getElementById("cost_n").textContent = v.cost_per_enquiry == null ? "measured after the first real run" : `about $${v.cost_per_enquiry.toFixed(3)} per enquiry, measured on the 80 samples`;
+document.getElementById("cost_n").textContent = v.cost_per_enquiry == null ? "measured after the first real run" : (v.note ?? `about $${v.cost_per_enquiry.toFixed(3)} per enquiry`);
 window.__duration = 8000;
 </script></body></html>

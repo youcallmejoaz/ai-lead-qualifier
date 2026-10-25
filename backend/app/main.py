@@ -23,6 +23,7 @@ from app.intake.form import ContactForm, create_from_form
 from app.intake.inbox_sim import seed_inbox
 from app.llm.cache import ResponseCache
 from app.llm.client import ClaudeClient, LLMUnavailable
+from app.llm.scripted import ScriptedLLM
 from app.models import CrmRecord, Message, ReviewItem
 from app.pipeline.process import Pipeline, process_message, rescore_all, unprocessed
 from app.pipeline.scoring import parse_icp
@@ -43,16 +44,17 @@ class State:
         self.engine = make_engine(config.database_url)
         init_db(self.engine)
         self.sessions = make_session_factory(self.engine)
-        self.pipeline = pipeline or Pipeline(
-            llm=ClaudeClient(
+        if config.llm_mode == "scripted":
+            # Hand written stand ins for Claude, for demos before the real run.
+            llm = ScriptedLLM()
+        else:
+            llm = ClaudeClient(
                 ResponseCache(config.cache_path),
                 live=config.llm_mode == "live",
                 has_key=config.has_api_key,
                 daily_limit=config.daily_call_limit,
-            ),
-            retriever=HelpDocRetriever(),
-            config=config,
-        )
+            )
+        self.pipeline = pipeline or Pipeline(llm=llm, retriever=HelpDocRetriever(), config=config)
         # SQLite and the review rules are simplest with one writer at a time.
         self.lock = threading.Lock()
         self.batch_running = False

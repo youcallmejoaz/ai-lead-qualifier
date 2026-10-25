@@ -222,7 +222,14 @@ function costValues() {
     }
     if (entries.length >= 80) cost = total / 80;
   }
-  return { per_week: 100, minutes: 6, cost_per_enquiry: cost };
+  if (cost !== null) return { per_week: 100, minutes: 6, cost_per_enquiry: cost, note: `about $${cost.toFixed(3)} per enquiry, measured on the 80 samples` };
+  // Before the real run: the estimate from prompt sizes written by scripts/build_demo_outputs.py.
+  const estPath = path.join(ROOT, "data", "demo_cost_estimate.json");
+  if (fs.existsSync(estPath)) {
+    const est = JSON.parse(fs.readFileSync(estPath, "utf8")).cost_per_enquiry;
+    return { per_week: 100, minutes: 6, cost_per_enquiry: est, note: `about $${est.toFixed(3)} per enquiry, estimated from prompt sizes` };
+  }
+  return { per_week: 100, minutes: 6, cost_per_enquiry: null };
 }
 
 // ---------------------------------------------------------------- app scenes
@@ -440,10 +447,16 @@ function finalize() {
     cut = `\nProposal cut (silent, UI only): \`proposal_cut_silent.mp4\`, ${duration(out).toFixed(1)}s, clips ${PROPOSAL.join(", ")}. ` +
       "The brief asks for 60 to 90 seconds; the remaining time comes from the talking head.\n";
   }
+  const cachePath = path.join(ROOT, "data", "llm_cache.json");
+  const real = fs.existsSync(cachePath) && Object.keys(JSON.parse(fs.readFileSync(cachePath, "utf8"))).length >= 80;
+  const source = real
+    ? "The app clips show real Claude outputs recorded in `data/llm_cache.json`."
+    : "**The app clips (C03 to C12) were recorded with `LLM_MODE=scripted`: the AI outputs are hand written stand ins from `data/demo_outputs.json`, not real Claude outputs.** The app, scoring, review gate, dedupe and citation checks are the real code. The C16 cost is estimated from prompt sizes. Re-record after the real run with an API key.";
   const md = [
     "# Clip manifest",
     "",
     "All clips are 1920 x 1080, 30 fps, H.264, silent, recorded from the app with the fictional sample data by `record.mjs`.",
+    source,
     "Cards and close ups are rendered at full resolution, not upscaled. The terminal clips are styled replays of prompts used in the build, with no keys, emails or personal paths.",
     "",
     "| Clip | File | Duration | What it shows | Script section |",

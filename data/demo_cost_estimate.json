@@ -1,0 +1,14 @@
+{
+ "cost_per_enquiry": 0.00273,
+ "method": "Estimated from prompt sizes at about 4 characters per token, list prices, output doubled for thinking. Not measured.",
+ "tokens": {
+  "claude-haiku-5-5": {
+   "input": 102445,
+   "output": 27222
+  },
+  "claude-sonnet-5-5": {
+   "input": 32217,
+   "output": 13036
+  }
+ }
+}

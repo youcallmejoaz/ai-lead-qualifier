@@ -12,7 +12,12 @@ import { Summary } from "./pages/Summary";
 export function App() {
   const location = useLocation();
   const [pending, setPending] = useState(0);
+  const [scripted, setScripted] = useState(false);
   const refreshCount = () => api.review("pending").then((r) => setPending(r.length)).catch(() => undefined);
+
+  useEffect(() => {
+    api.health().then((h) => setScripted(h.llm_mode === "scripted")).catch(() => undefined);
+  }, []);
 
   useEffect(() => {
     refreshCount();
@@ -40,7 +45,7 @@ export function App() {
         {link("/summary", "Weekly summary")}
         {link("/settings", "Settings")}
         <NavLink to="/contact" className="nav-link"><span>Contact form &#8599;</span></NavLink>
-        <div className="sidebar-foot">Fernhollow Digital (fictional)<br />Sample data only</div>
+        <div className="sidebar-foot">Fernhollow Digital (fictional)<br />Sample data only{scripted && <><br />Scripted AI outputs</>}</div>
       </aside>
       <main className="main">
         <Routes>
